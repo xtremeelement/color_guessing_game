@@ -1,0 +1,91 @@
+body {
+  background: #232323;
+  margin: 0;
+  font-family: Monsterrat;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.goal {
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  color: white;
+  background: white;
+  text-align: center;
+  padding: 0;
+}
+/* .message {
+  color: white;
+  text-align: center;
+} */
+
+.container {
+  margin-top: 20px;
+}
+
+.square {
+  width: 30%;
+  margin: 1.6%;
+  background: white;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 10%;
+  transition: background 0.5s;
+  --webkit--transition: background 0.5s;
+  --moz--transition: background 0.5s;
+}
+
+.header {
+  background: steelblue;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+.selected {
+  background: steelblue;
+  color: white;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  font-size: inherit;
+  transition: all 0.5s;
+  outline: none;
+}
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+.message {
+  display: inline-block;
+  width: 20%;
+  color: steelblue;
+  font-weight: bold;
+}
